@@ -11,10 +11,26 @@
   <!--Scripts-->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="scripts/scripts.js"></script>
 </head>
 <body>
   <div class="container-fluid">
-    <h1>Please enter your USC email below to gain access to USC syllabi!</h1>
-    <h3>This is for numerical data collection purposes (measuring specific traffic).</h3>
+    <div class="row">
+    <div class="openingText col-centered col-md-4">
+      <h1 class="text-center">Enter your USC email below for USC GE syllabi, reviews, and more!</h1>
+      <h5 class="text-center">This is for numerical data collection purposes (measuring specific traffic).</h5>
+    </div>
+    </div>
+    <div class="row">
+    <div class="emailInputField col-centered col-md-4">
+    <form>
+      <div class="form-group">
+        <label class="sr-only" for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="emailInputForTraffic" placeholder="Email">
+      </div>
+      <button type="submit" id="emailSubmit" class="btn btn-default btn-block">Submit</button>
+    </form>
+    </div>
+  </div>
   </div>
 </body>

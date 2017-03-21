@@ -1,7 +1,16 @@
-html {
+/* General CSS to override Bootstrap */
+html, body, div {
   font-family: 'Open Sans', sans-serif;
+  background-color: #990000 !important;
+  color: #FFCC00 !important;
 }
-body {
-  background-color: #990000;
-  color: #FFCC00;
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.openingText {
+  margin-top: 10em;
+  margin-bottom: 2em;
 }
